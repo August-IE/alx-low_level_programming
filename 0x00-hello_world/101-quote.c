@@ -1,8 +1,9 @@
 include <stdio.h>
 include <unistd.h>
+
 /**
- * main - A C program that prints exactly a sentence followed by a new line, to the standard error.
- * Return 1 (Success)
+ * main - A c program that prints exactly a sentence followed by a new line, to the standard error.
+ * Return: 1 (Success)
  */
 int main(void)
 {
