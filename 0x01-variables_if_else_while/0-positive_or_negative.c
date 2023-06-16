@@ -5,9 +5,9 @@
 /**
  * A program that prints the number stored in a variable positive or negative
  *
- * Return: Always 0 (Success)
+ * Return: 0 (success)
+ *
  */
-
 int main(void)
 {
 	int n;
