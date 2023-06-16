@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /**
- * A program that prints the number stored in a variable positive or negative
+ * main - A program that prints the number stored in a variable
+ * positive or negative
  *
- * Return : 0 (Success)
+ * Return: Always 0 (Success)
  *
  */
 int main(void)
