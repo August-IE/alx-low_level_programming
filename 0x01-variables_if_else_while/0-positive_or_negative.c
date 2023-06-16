@@ -5,7 +5,7 @@
 /**
  * A program that prints the number stored in a variable positive or negative
  *
- * Return: 0 (success)
+ * Return : 0 (Success)
  *
  */
 int main(void)
