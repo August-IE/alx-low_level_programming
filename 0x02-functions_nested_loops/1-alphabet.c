@@ -6,13 +6,11 @@
  *
  * Return: Always 0 (Success)
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	int i;
+	char lowercase;
 
-	for (i = 97; i <= 122; i++)
-	{
-		_putchar(i);
-	}
-        _putchar('\n');
+	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
+	_putchar(lowercase);
+	_putchar('\n');
 }
