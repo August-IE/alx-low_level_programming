@@ -6,11 +6,11 @@
  *
  * Return: The length of @str.
  */
-int _strlen(char *s)
+int _strlen(char *str)
 {
 	int length = 0;
 
-	while (*s++)
+	while (*str++)
 		length++;
 
 	return (length);
