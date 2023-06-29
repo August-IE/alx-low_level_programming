@@ -1,5 +1,8 @@
 #include "main.h"
 
+char *add_strings(char *n1, char *n2, char *r, int r_index);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
+
 /**
  * add_strings - Adds the numbers stored in two strings.
  * @n1: The string containing the first number to be added.
@@ -10,7 +13,7 @@
  * Return: If r can store the sum - a pointer to the result.
  *         If r cannot store the sum - 0.
  */
-char *infinite_add(char *n1, char *n2, char *r, int size_r)
+char *add_strings(char *n1, char *n2, char *r, int r_index)
 {
 	int num, tens = 0;
 
