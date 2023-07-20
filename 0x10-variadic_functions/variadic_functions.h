@@ -4,7 +4,7 @@
 /*
  * File: variadic_functions.h
  * Desc: My header file containing prototypes of all functions
- * 	 in this project
+ *	 in this project
  */
 
 #include <stdarg.h>
