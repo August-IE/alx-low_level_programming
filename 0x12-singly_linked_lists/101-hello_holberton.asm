@@ -1,5 +1,5 @@
 ; File: 101-hello_holberton.asm
-; Desc: A 64-bit assembly program that prints 
+; Desc: A 64-bit assembly program that prints
 ;       Hello, Holberton followed by a new line.
 
 extern printf

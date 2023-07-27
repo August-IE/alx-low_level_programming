@@ -4,7 +4,7 @@
 /*
  * File: lists.h
  * Desc: My header file for 0x12. C - Singly linked lists project containing
- * 	all function prototypes and data structure. 
+ *	all function prototypes and data structure.
  */
 
 #include <stdlib.h>
