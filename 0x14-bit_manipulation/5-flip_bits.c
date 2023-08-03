@@ -8,17 +8,15 @@
  *
  * Return: number of flipped bits
  */
-
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-    unsigned long int value = n ^ m, flip_bits = 0;
+	unsigned long int value = n ^ m, flip_bits = 0;
 
-    while (value > 0)
-    
-    {
-	    flip_bits += (value & 1);
-	    value >>= 1;
-    }
+	while (value > 0)
+	{
+		flip_bits += (value & 1);
+		value >>= 1;
+	}
 
-    return (flip_bits);
+	return (flip_bits);
 }
