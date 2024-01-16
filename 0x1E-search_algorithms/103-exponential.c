@@ -46,7 +46,7 @@ int _binary_search(int *array, size_t left, size_t right, int value)
   * @value: The value to search for.
   *
   * Return: If the value is not present or the array is NULL, -1.
-  *         Otherwise, the index where the value is located.
+  *         else, the index where the value is located.
   */
 int exponential_search(int *array, size_t size, int value)
 {
